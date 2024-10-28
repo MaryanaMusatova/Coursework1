@@ -59,7 +59,7 @@ public class Employee {
         return employee;
     }
 
-    public static void namedEmployee() {
+    public static void namedEmployees() {
         Employee[] employees = new Employee[10];
         employees[0] = createEmployee("Абашин Иван Сергеевич", 1, 147500);
         employees[1] = createEmployee("Бочарников Виталий Андреевич", 3, 99560);
@@ -76,7 +76,6 @@ public class Employee {
             System.out.println(employees[i]);
         }
     }
-
 
     @Override
     public boolean equals(Object o) {
